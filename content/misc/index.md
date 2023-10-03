@@ -1,6 +1,7 @@
 ---
 title: Miscellaneous
 type: landing
+headless: false
 
 sections:
   - block: markdown
