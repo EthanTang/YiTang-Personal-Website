@@ -15,6 +15,9 @@ sections:
         - Outside my academic life, I am an enthusiastic classical clarinetist and recently started to learn band conducting. I was the captain (i.e., student leader) of the Tsinghua University Symphonic Band from 2013-2014. I played the clarinet in University of Minnesota University Band, Campus Orchestra, and Summer Orchestra for many years. I also played a clarinet duet with my roommate in his doctoral recital and conducted the UMN University Band in spring 2021.
     design:
       columns: '1'
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["10px", "0", "10px", "0"]
   - block: markdown
     id: gallery_leibo
     content:
@@ -24,6 +27,9 @@ sections:
         {{< gallery album="leibo" >}}
     design:
       columns: '1'
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ["10px", "0", "10px", "0"]
   - block: markdown
     id: gallery_music
     content:
