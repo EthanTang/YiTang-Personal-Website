@@ -20,7 +20,7 @@ main:
     url: 'awards'
     weight: 50
   - name: CV
-    url: 'cv'
+    url: 'uploads/YiTang_CV.pdf'
     weight: 60
   - name: Misc
     url: 'misc'
