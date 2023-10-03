@@ -78,7 +78,7 @@ highlight_name: true
 
 2023 INFORMS Annual Meeting, Phoenix, Arizona, USA
 
-- Talk title:  Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps \[[Download](https://drive.google.com/file/d/1IcLKIa8nj2siMdh0hM-q7FmyG88YNtmO/view?usp=sharing)\]
+- Talk title:  Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps \[[Paper](https://drive.google.com/file/d/1IcLKIa8nj2siMdh0hM-q7FmyG88YNtmO/view?usp=sharing)\]
   - Session: MB55. Empirical Insights into Platform Service Delivery and Health Equity
   - Time: Monday, October 16, 10:45 AM - 12:00 PM
   - Location: CC-North 231C
