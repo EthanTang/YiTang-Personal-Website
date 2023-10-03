@@ -21,7 +21,7 @@ sections:
       title: My hometown Leibo
       subtitle: Photo credits to Xiaojun Tang (my dad)
       text: |-
-        {{< gallery album="leibo" resize_options="150x150" >}}
+        {{< gallery album="leibo" >}}
     design:
       columns: '1'
   - block: markdown
