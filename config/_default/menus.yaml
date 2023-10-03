@@ -19,7 +19,7 @@ main:
   - name: Awards
     url: 'awards'
     weight: 50
-  - name: MISC
+  - name: Misc
     url: 'misc'
     weight: 60
 
