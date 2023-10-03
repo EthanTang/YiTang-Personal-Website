@@ -1,10 +1,16 @@
 ---
 title: CV
+type: landing
 
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
+sections:
+  - block: markdown
+    id: my_cv
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        {{< gdocs src="https://docs.google.com/document/d/e/2PACX-1vQrNL1xt9nYt4g7kwQsXcebR6iVln0LxQcuR2i7ZU3F3Sz85mfVBV_AX5FUe8JyXwY_LKeOEoEvfzIZ/pub" >}}
+    design:
+      columns: '1'
 
 ---
-{{< embed-pdf url="uploads/YiTang_CV.pdf" >}}
