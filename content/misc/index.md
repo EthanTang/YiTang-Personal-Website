@@ -29,7 +29,7 @@ sections:
       columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["0", "0", "0", "0"]
+        padding: ["5px", "0", "0", "0"]
   - block: markdown
     id: gallery_music
     content:
