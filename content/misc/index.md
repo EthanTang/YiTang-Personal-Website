@@ -17,7 +17,7 @@ sections:
       columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["10px", "0", "5px", "0"]
+        padding: ["0", "0", "0", "0"]
   - block: markdown
     id: gallery_leibo
     content:
@@ -29,12 +29,12 @@ sections:
       columns: '1'
       spacing:
         # Customize the section spacing. Order is top, right, bottom, left.
-        padding: ["5px", "0", "10px", "0"]
+        padding: ["0", "0", "0", "0"]
   - block: markdown
     id: gallery_music
     content:
       title: My musical life
-      subtitle: ''
+      subtitle: ' '
       text: |-
         {{< gallery album="music" >}}
     design:
