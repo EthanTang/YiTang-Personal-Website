@@ -27,6 +27,7 @@ comments: false  # Show comments?
     - SCO 3001 - Introduction to Operations Management
     - SCO 2550 - Business Statistics: Data Sources, Presentation, and Analysis
 
+<br/>
 
 ## Teaching Training
 - Program for the Advancement of Classroom Excellence (PACE Program), Supply Chain & Operations Department, University of Minnesota – Twin Cities 

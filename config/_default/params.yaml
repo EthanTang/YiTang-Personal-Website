@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Yi Tang's Personal Website'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -38,19 +38,19 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Yi Tang.'
+#    license:
+#      enable: true
+#      allow_derivatives: false
+#      share_alike: true
+#      allow_commercial: false
 
 # Localization
 
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/EthanTang/YiTang-Personal-Website.git'
     content_dir: content
     branch: main
   avatar:
