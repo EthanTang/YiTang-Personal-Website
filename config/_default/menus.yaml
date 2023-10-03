@@ -19,13 +19,16 @@ main:
   - name: Awards
     url: 'awards'
     weight: 50
+  - name: CV
+    url: 'cv'
+    weight: 60
   - name: Misc
     url: 'misc'
-    weight: 60
+    weight: 70
 
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: CV
-    url: uploads/YiTang_CV.pdf
-    weight: 70
+#  - name: CV
+#    url: 'uploads/YiTang_CV.pdf'
+#    weight: 70
