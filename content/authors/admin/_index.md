@@ -76,7 +76,7 @@ highlight_name: true
 
 **I am on the 2023-2024 job market seeking tenure-track positions in Operations Management, Supply Chain Management, Business Analytics, and related fields.**
 
-I will be presenting my job market paper at:
+**I will be presenting my job market paper at:**
 
 2023 INFORMS Annual Meeting, Phoenix, Arizona, USA
 
@@ -88,6 +88,8 @@ I will be presenting my job market paper at:
 
 I am a PhD candidate in Business Administration at the [Department of Supply Chain & Operations](https://carlsonschool.umn.edu/departments/supply-chain-operations), Carlson School of Management, University of Minnesota - Twin Cities. I am advised by [Prof. Kingshuk K. Sinha](https://carlsonschool.umn.edu/faculty/kingshuk-sinha). I am also pursing a Master of Science in Statistics at the [School of Statistics](https://cla.umn.edu/statistics), University of Minnesota - Twin Cities. Before coming to UMN, I obtained my Bachelor's degree in Industrial Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm).
 
-My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)** in operations management. My current research investigates how emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services to the underserved population. Situated in an overlooked context of mental healthcare operations, my dissertation: (1) investigates whether the well-documented inequities in traditional mental healthcare delivery exist in a mobile app setting; (2) designs an AI-powered mental health service recommender system delivered through a chatbot to connect distressed individuals with professional mental health services; and (iii) examines the boundary conditions in which telehealth delivers high-quality mental healthcare.  My research is recognized by several research grants and awards including [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid), [Cisco Research Grant](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies), and the finalist of 2023 POMS College of Service Operations Management Best Student Paper.
+My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)** in operations management. My dissertation research - situated in a unique context of mental (behavioral) healthcare oeprations - investigates how emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. Beyond the dissertation, I am also investigating DEI-related issues in broader OM contexts such as government procurement.
+
+My research is recognized by several research grants and awards including [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid), [Cisco Research Grant](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies), and the finalist of 2023 POMS College of Service Operations Management Best Student Paper.
 
 On the personal side, I am a classical clarinetist and band conductor. I love playing table tennis and riding road bikes. 
