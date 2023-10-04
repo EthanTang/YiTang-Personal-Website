@@ -92,4 +92,4 @@ My research interests lie at the intersection of **healthcare service delivery**
 
 My research is recognized by several research grants and awards including [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid), [Cisco Research Grant](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies), and the finalist of 2023 POMS College of Service Operations Management Best Student Paper.
 
-On the personal side, I am a classical clarinetist and band conductor. I love playing table tennis and riding road bikes. 
+On the personal side, I am happily married to Ms. Tianni Guo who recently won the 2023 National Dual Language Teacher of the Year. We have a lovely (yet a little cranky) cat, Nova. I am a classical clarinetist and band conductor. I love playing table tennis and riding road bikes. 
