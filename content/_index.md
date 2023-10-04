@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Welcome to my personal website!
+      title: Welcome to my website!
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 

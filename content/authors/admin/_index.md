@@ -74,7 +74,9 @@ email: ''
 highlight_name: true
 ---
 
-**I am on the 2023-2024 job market seeking tenure-track positions in Operations Management, Supply Chain Management, Business Analytics, and related fields. I will be presenting my job market paper at:**
+**I am on the 2023-2024 job market seeking tenure-track positions in Operations Management, Supply Chain Management, Business Analytics, and related fields.**
+
+I will be presenting my job market paper at:
 
 2023 INFORMS Annual Meeting, Phoenix, Arizona, USA
 
