@@ -78,7 +78,7 @@ highlight_name: true
 
 **I will attend the following conference:**
 
-The 54th Annual Conference of the Decision Sciences Institute (DSI), November 18 – 20, 2023 @ Atlanta, GA, USA
+- The 54th Annual Conference of the Decision Sciences Institute (DSI), November 18 – 20, 2023 @ Atlanta, GA, USA
 
 
 I am a PhD candidate in Business Administration at the [Department of Supply Chain & Operations](https://carlsonschool.umn.edu/departments/supply-chain-operations), Carlson School of Management, University of Minnesota - Twin Cities. I am advised by [Prof. Kingshuk K. Sinha](https://carlsonschool.umn.edu/faculty/kingshuk-sinha). I am also pursing a Master of Science in Statistics at the [School of Statistics](https://cla.umn.edu/statistics), University of Minnesota - Twin Cities. Before coming to UMN, I obtained my Bachelor's degree in Industrial Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm).
