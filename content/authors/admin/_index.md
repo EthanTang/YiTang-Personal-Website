@@ -76,14 +76,9 @@ highlight_name: true
 
 **I am on the 2023-2024 job market seeking tenure-track positions in Operations Management, Supply Chain Management, Business Analytics, and related fields.**
 
-**I will be presenting my job market paper at:**
+**I will attend the following conference:**
 
-2023 INFORMS Annual Meeting, Phoenix, Arizona, USA
-
-- Talk title:  Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps \[[Paper](uploads/YiTang_JobMarketPaper.pdf)\]
-  - Session: MB55. Empirical Insights into Platform Service Delivery and Health Equity
-  - Time: Monday, October 16, 10:45 AM - 12:00 PM
-  - Location: CC-North 231C
+The 54th Annual Conference of the Decision Sciences Institute (DSI), November 18 – 20, 2023 @ Atlanta, GA, USA
 
 
 I am a PhD candidate in Business Administration at the [Department of Supply Chain & Operations](https://carlsonschool.umn.edu/departments/supply-chain-operations), Carlson School of Management, University of Minnesota - Twin Cities. I am advised by [Prof. Kingshuk K. Sinha](https://carlsonschool.umn.edu/faculty/kingshuk-sinha). I am also pursing a Master of Science in Statistics at the [School of Statistics](https://cla.umn.edu/statistics), University of Minnesota - Twin Cities. Before coming to UMN, I obtained my Bachelor's degree in Industrial Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm).
