@@ -8,7 +8,7 @@ comments: false  # Show comments?
 
 ---
 ## Working Papers
-1. [Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps](https://drive.google.com/file/d/1IcLKIa8nj2siMdh0hM-q7FmyG88YNtmO/view?usp=sharing). **Yi Tang**, Kingshuk K. Sinha, Adam Moen, Necati Ertekin. Minor revision at ***Production and Operations Management***.
+1. [Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps](https://drive.google.com/file/d/1IcLKIa8nj2siMdh0hM-q7FmyG88YNtmO/view?usp=sharing). **Yi Tang**, Kingshuk K. Sinha, Adam Moen, Necati Ertekin. Forthcoming at ***Production and Operations Management***.
     - Finalist - 2023 POMS College of Service Operations Management Best Student Paper
     - Recipient - [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid)
 
