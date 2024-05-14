@@ -74,8 +74,6 @@ email: ''
 highlight_name: true
 ---
 
-**I am on the 2023-2024 job market seeking tenure-track positions in Operations Management, Supply Chain Management, Business Analytics, and related fields.**
-
 I am a PhD candidate in Business Administration at the [Department of Supply Chain & Operations](https://carlsonschool.umn.edu/departments/supply-chain-operations), Carlson School of Management, University of Minnesota - Twin Cities. I am advised by [Prof. Kingshuk K. Sinha](https://carlsonschool.umn.edu/faculty/kingshuk-sinha). I am also pursing a Master of Science in Statistics at the [School of Statistics](https://cla.umn.edu/statistics), University of Minnesota - Twin Cities. Before coming to UMN, I obtained my Bachelor's degree in Industrial Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm).
 
 My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)** in operations management. My dissertation research - situated in a unique context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. Beyond the dissertation, I am also investigating DEI-related issues in broader OM contexts such as U.S. federal government procurement.
