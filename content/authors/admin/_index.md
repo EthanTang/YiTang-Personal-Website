@@ -74,7 +74,7 @@ email: ''
 highlight_name: true
 ---
 
-I am an Assistant Professor (Tenure-Track) in the [School of Public Administration](https://spa.unm.edu/) at the [University of New Mexico](https://www.unm.edu/). I primarily teach in the [Master of Health Administration](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html) Program.I received my PhD in Business Administration from Carlson School of Management and my MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
+I am a tenure-track Assistant Professor in the [School of Public Administration](https://spa.unm.edu/) at the [University of New Mexico](https://www.unm.edu/). I primarily teach in the [Master of Health Administration](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html) Program. I received my PhD in Business Administration from Carlson School of Management and MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
 
 My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)**. My recent research - situated in the context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. I am also investigating DEI-related issues in broader contexts such as U.S. federal government procurement.
 

@@ -16,12 +16,12 @@ comments: false  # Show comments?
 
 ## Working Papers
 
-2. 1.	Designing an AI-Enabled Online Mental Health Service Referral Platform. **Yi Tang**, Kingshuk K. Sinha, Adam Moen.
+2. Designing an AI-Enabled Online Mental Health Service Referral Platform. **Yi Tang**, Kingshuk K. Sinha, Adam Moen.
     - Recipient - [Cisco Tech for Healthcare Research Grant, $180,000](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies)
 
 <br/>
 
-3. 2.	Enhancing Telemental Health Uptake: The Critical Role of Technological Infrastructure and Parity in Improving Population Mental Health Condition. **Yi Tang**, Eric Xu, Kingshuk K. Sinha.  
+3. Enhancing Telemental Health Uptake: The Critical Role of Technological Infrastructure and Parity in Improving Population Mental Health Condition. **Yi Tang**, Eric Xu, Kingshuk K. Sinha.  
 
 <br/>
 
