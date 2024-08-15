@@ -14,12 +14,12 @@ last_name: Tang
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate, Supply Chain and Operations
+role: Assistant Professor, Master of Health Administration Program
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Carlson School of Management, University of Minnesota
-    url: https://carlsonschool.umn.edu/
+  - name: School of Public Administration, The University of New Mexico
+    url: https://spa.unm.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: I strive to use technology to reduce healthcare inequities.
@@ -29,7 +29,7 @@ interests:
   - Healthcare service delivery
   - Information technology - Mobile app, Chatbot, Telehealth
   - Mental healthcare inequities
-  - Diversity, equity, and inclusion (DEI) in OM
+  - Diversity, equity, and inclusion (DEI)
   - Econometrics, causal inference
   - Natural language processing
 
@@ -38,12 +38,12 @@ education:
   courses:
     - course: PhD in Business Administration (Supply Chain & Operations)
       institution: Carlson School of Management, University of Minnesota - Twin Cities
-      year: "2024 (Expected)"
+      year: "2024"
       icon: twitter
       icon_pack: fab
     - course: MS in Statistics
       institution: School of Statistics, University of Minnesota - Twin Cities
-      year: "2024 (Expected)"
+      year: "2024"
     - course: BE in Industrial Engineering
       institution: Tsinghua University, Beijing, China
       year: "2015"
@@ -55,7 +55,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:tangx688@umn.edu
+    link: mailto:tangyi@unm.edu
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/tangyi0208/
@@ -74,9 +74,9 @@ email: ''
 highlight_name: true
 ---
 
-I am a PhD candidate in Business Administration at the [Department of Supply Chain & Operations](https://carlsonschool.umn.edu/departments/supply-chain-operations), Carlson School of Management, University of Minnesota - Twin Cities. I am advised by [Prof. Kingshuk K. Sinha](https://carlsonschool.umn.edu/faculty/kingshuk-sinha). I am also pursing a Master of Science in Statistics at the [School of Statistics](https://cla.umn.edu/statistics), University of Minnesota - Twin Cities. Before coming to UMN, I obtained my Bachelor's degree in Industrial Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm). In this coming fall, I will be joining [School of Public Administration](https://spa.unm.edu/) ([Health Administration Program](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html)) at [University of New Mexico](https://www.unm.edu/) as a tenure-track Assistant Professor.
+I am an Assistant Professor (Tenure-Track) in the [School of Public Administration](https://spa.unm.edu/) at the [University of New Mexico](https://www.unm.edu/). I primarily teach in the [Master of Health Administration](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html) Program.I received my PhD in Business Administration from Carlson School of Management and my MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
 
-My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)** in operations management. My dissertation research - situated in a unique context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. Beyond the dissertation, I am also investigating DEI-related issues in broader OM contexts such as U.S. federal government procurement.
+My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)**. My recent research - situated in the context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. I am also investigating DEI-related issues in broader contexts such as U.S. federal government procurement.
 
 My research is recognized by several research grants and awards including [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid), [Cisco Research Grant](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies), and the finalist of 2023 POMS College of Service Operations Management Best Student Paper. My research has been published in *Production and Operations Management*.
 

@@ -8,7 +8,7 @@ comments: false  # Show comments?
 
 ---
 ## Publications
-1. [Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps](https://yitang.info/uploads/YiTang_JobMarketPaper.pdf). **Yi Tang**, Kingshuk K. Sinha, Adam Moen, Necati Ertekin. Forthcoming at ***Production and Operations Management***.
+1. [Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps](https://journals.sagepub.com/doi/abs/10.1177/10591478231224914). **Yi Tang**, Kingshuk K. Sinha, Adam Moen, Necati Ertekin. Forthcoming at ***Production and Operations Management***. **\[UTD24\]\[FT50\]**
     - Finalist - 2023 POMS College of Service Operations Management Best Student Paper
     - Recipient - [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid)
 
@@ -16,14 +16,14 @@ comments: false  # Show comments?
 
 ## Working Papers
 
-2. Designing a Mental Health Service Recommender System: Sensing and Responding to Personalized Support Needs and Advancing Equity in Mental Healthcare Delivery. **Yi Tang**, Kingshuk K. Sinha, Adam Moen. Targeting *Management Science*.
+2. 1.	Designing an AI-Enabled Online Mental Health Service Referral Platform. **Yi Tang**, Kingshuk K. Sinha, Adam Moen.
     - Recipient - [Cisco Tech for Healthcare Research Grant, $180,000](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies)
 
 <br/>
 
-3. The Impact of Telehealth on Mental Health Service Usage and Quality: An Empirical Investigation. **Yi Tang**, Eric Xu. Manuscript under preparation.  
+3. 2.	Enhancing Telemental Health Uptake: The Critical Role of Technological Infrastructure and Parity in Improving Population Mental Health Condition. **Yi Tang**, Eric Xu, Kingshuk K. Sinha.  
 
 <br/>
 
 ## Work-in-Progress
-4. Does Diverse Federal Agency Employment Help to Advance Diversity in Federal Government Procurement? An Empirical Investigation. Dwaipayan Roy, **Yi Tang**. Data analysis in progress. 
+4. Does Diverse Federal Agency Employment Help to Advance Diversity in Federal Government Procurement? An Empirical Investigation. Dwaipayan Roy, **Yi Tang**. 
