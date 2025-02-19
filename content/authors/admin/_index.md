@@ -29,7 +29,6 @@ interests:
   - Healthcare service delivery
   - Information technology - Mobile app, Chatbot, Telehealth
   - Mental healthcare inequities
-  - Diversity, equity, and inclusion (DEI)
   - Econometrics, causal inference
   - Natural language processing
 
@@ -76,7 +75,7 @@ highlight_name: true
 
 I am a tenure-track Assistant Professor in the [School of Public Administration](https://spa.unm.edu/) at the [University of New Mexico](https://www.unm.edu/). I primarily teach in the [Master of Health Administration](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html) Program. I received my PhD in Business Administration from Carlson School of Management and MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
 
-My research interests lie at the intersection of **healthcare service delivery**, **information technologies (IT)**, and **diversity, equity, and inclusion (DEI)**. My recent research - situated in the context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services, especially to the underserved population. I am also investigating DEI-related issues in broader contexts such as U.S. federal government procurement.
+My research interests lie at the intersection of **healthcare service delivery** and **health information technologies (IT)**, with a particular emphasis on fulfilling the demands for healthcare services from the underserved communities and reducing disparities in healthcare delivery. My recent research - situated in the context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services to the underserved populations characterized by their gender, sexual orientation, and race-ethnicity. I am also conducting research in broader contexts such as U.S. federal government procurement.
 
 My research is recognized by several research grants and awards including [University of Minnesota Leadership in Equity, Inclusion and Diversity Fellowship](https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid), [Cisco Research Grant](https://research.umn.edu/inquiry/post/collaboration-cisco-explores-frontier-data-technologies), and the finalist of 2023 POMS College of Service Operations Management Best Student Paper. My research has been published in *Production and Operations Management*.
 
