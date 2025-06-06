@@ -14,12 +14,12 @@ last_name: Tang
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor, Master of Health Administration Program
+role: Assistant Professor of Business Analytics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: School of Public Administration, The University of New Mexico
-    url: https://spa.unm.edu/
+  - name: Strome College of Business, Old Dominion University
+    url: https://www.odu.edu/information-technology-decision-sciences
 
 # Short bio (displayed in user profile at end of posts)
 bio: I strive to use technology to reduce healthcare inequities.
@@ -29,6 +29,7 @@ interests:
   - Healthcare service delivery
   - Information technology - Mobile app, Chatbot, Telehealth
   - Mental healthcare inequities
+  - Equity in government procurement
   - Econometrics, causal inference
   - Natural language processing
 
@@ -54,7 +55,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:tangyi@unm.edu
+    link: mailto:y1tang@odu.edu
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/tangyi0208/
@@ -73,7 +74,7 @@ email: ''
 highlight_name: true
 ---
 
-I am a tenure-track Assistant Professor in the [School of Public Administration](https://spa.unm.edu/) at the [University of New Mexico](https://www.unm.edu/). I primarily teach in the [Master of Health Administration](https://spa.unm.edu/academic-programs/mha-graduate-program/index.html) Program. I received my PhD in Business Administration from Carlson School of Management and MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
+I am a tenure-track Assistant Professor of Business Analytics in the [Department of Information Technology & Decision Sciences](https://www.odu.edu/information-technology-decision-sciences) within the Strome College of Business at the [University of New Mexico](https://www.unm.edu/). I received my PhD in Business Administration from Carlson School of Management and MS in Statistics from School of Statistics at the University of Minnesota - Twin Cities. I obtained my BS in Industrial Engineering from Tsinghua University.
 
 My research interests lie at the intersection of **healthcare service delivery** and **health information technologies (IT)**, with a particular emphasis on fulfilling the demands for healthcare services from the underserved communities and reducing disparities in healthcare delivery. My recent research - situated in the context of mental (behavioral) healthcare operations - investigates whether and under what conditions emerging health IT (e.g., mobile apps, chatbots, telehealth) can be leveraged to deliver effective and equitable mental health services to the underserved populations characterized by their gender, sexual orientation, and race-ethnicity. I am also conducting research in broader contexts such as U.S. federal government procurement.
 

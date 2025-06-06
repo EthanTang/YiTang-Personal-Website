@@ -26,4 +26,4 @@ comments: false  # Show comments?
 <br/>
 
 ## Work-in-Progress
-4. Does Diverse Federal Agency Employment Help to Advance Diversity in Federal Government Procurement? An Empirical Investigation. Dwaipayan Roy, **Yi Tang**. 
+4. Woman Veteran-Owned Small Businesses in Federal Procurement. Dwaipayan Roy, **Yi Tang**. 
