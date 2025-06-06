@@ -7,6 +7,12 @@ profile: false  # Show author profile?
 comments: false  # Show comments?
 
 ---
+- Session chairs for the 2025 DSI Annual Conference
+    - Track: Healthcare Management, Inclusive Operations and Supply Chains
+
+- Session chair for the 2025 DSI Annual Conference
+    - Track: POM and Community
+
 - Session co-chair for the 2024 DSI Annual Conference
     - Track: Diversity, Equity, and Inclusion (DEI)
 
@@ -18,4 +24,4 @@ comments: false  # Show comments?
 
 - Ad hoc reviewer for *Decision Sciences Journal*
 
-- Ad hoc reviewer for the 2020 Academy of Management Annual Conference
+- Ad hoc reviewer for 2025 Manufacturing and Service Operations Annual Conference, 2020 Academy of Management Annual Conference
