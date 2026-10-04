@@ -9,6 +9,7 @@ function md(s){return marked.parse(s||'',{breaks:false});}
 function linked(label,href){return href?`<a href="${url(href)}">${esc(label)}</a>`:esc(label);}
 function img(p,cls=''){return p?.image?`<img class="${cls}" src="${url(p.image)}" alt="${esc(p.alt)}" loading="lazy">`:'';}
 export function build({output=path.join(root,'public'),local=false,branch=process.env.CMS_BRANCH||process.env.BRANCH||'main',contentRoot=path.join(root,'content')}={}){
+ if(branch.startsWith('cms/'))branch=process.env.CMS_BRANCH||'main';
  const load=n=>JSON.parse(fs.readFileSync(path.join(contentRoot,n+'.json'),'utf8'));
  const profile=load('profile'),home=load('home'),research=load('research'),teaching=load('teaching'),misc=load('misc');
  const posts=fs.readdirSync(path.join(contentRoot,'posts')).filter(f=>f.endsWith('.json')).map(f=>load('posts/'+f.slice(0,-5))).filter(p=>p.published!==false).sort((a,b)=>b.date.localeCompare(a.date));
