@@ -1,0 +1,20 @@
+{
+  "title": "On the other side of the music stand",
+  "slug": "university-band",
+  "date": "2021-04-01",
+  "date_label": "Spring 2021",
+  "category": "Music",
+  "summary": "A moment from conducting the University of Minnesota University Band.",
+  "body": "In spring 2021, I conducted the University of Minnesota University Band. Here is a photograph from my musical life at Minnesota.\n\nMost of the time, you will find me on clarinet. These days, I perform with the ODU Symphony Orchestra and the Chesapeake Bay Wind Ensemble.",
+  "photos": [
+    {
+      "image": "/assets/music-3.webp",
+      "alt": "Yi Tang conducting a band at the University of Minnesota",
+      "caption": "Conducting at Minnesota · Spring 2021"
+    }
+  ],
+  "thumbnail_mode": "auto",
+  "thumbnail": "",
+  "thumbnail_alt": "",
+  "published": true
+}

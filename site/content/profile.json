@@ -1,0 +1,59 @@
+{
+  "name": "Yi Tang",
+  "chinese_name": "唐懿",
+  "position": "Assistant Professor",
+  "specialty": "of Business Analytics",
+  "headshot": "/assets/headshot.jpg",
+  "headshot_alt": "Yi Tang",
+  "headshot_position": "50% 50%",
+  "affiliations": [
+    {
+      "label": "Strome College of Business",
+      "url": "https://www.odu.edu/business"
+    },
+    {
+      "label": "Old Dominion University",
+      "url": "https://www.odu.edu/"
+    }
+  ],
+  "location": "From Leibo, Sichuan.  \nAt home in Norfolk, Virginia.",
+  "biography": "I study how digital technology can improve healthcare, especially mental healthcare for underserved communities.\n\nThis is where I keep my research, teaching, and a few notes from the rest of life.",
+  "personal_line": "Usually a clarinet or a cat nearby.",
+  "links": [
+    {
+      "label": "ODU profile",
+      "url": "https://www.odu.edu/directory/yi-tang",
+      "footer": false
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=slM5V0MAAAAJ",
+      "footer": true
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0003-4378-1700",
+      "footer": true
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tangyi0208/",
+      "footer": true
+    },
+    {
+      "label": "CV",
+      "url": "/assets/Yi_Tang_CV.pdf",
+      "footer": false
+    },
+    {
+      "label": "Email",
+      "url": "mailto:y1tang@odu.edu",
+      "footer": true
+    }
+  ],
+  "cv": "/assets/Yi_Tang_CV.pdf",
+  "font": "fontin",
+  "description": "Yi Tang’s research, teaching, and occasional notes from life. Assistant Professor of Business Analytics at Old Dominion University.",
+  "footer_location": "Norfolk, Virginia",
+  "site_url": "https://yitang.info"
+}

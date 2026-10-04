@@ -1,0 +1,723 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "EthanTang/YiTang-Personal-Website",
+    "branch": "main"
+  },
+  "publish_mode": "editorial_workflow",
+  "media_folder": "site/static/assets/uploads",
+  "public_folder": "/assets/uploads",
+  "site_url": "https://yitang.info",
+  "display_url": "https://yitang.info",
+  "show_preview_links": true,
+  "collections": [
+    {
+      "name": "pages",
+      "label": "Website pages & settings",
+      "files": [
+        {
+          "name": "profile",
+          "label": "Profile & settings",
+          "file": "site/content/profile.json",
+          "fields": [
+            {
+              "name": "name",
+              "label": "English name",
+              "widget": "string"
+            },
+            {
+              "name": "chinese_name",
+              "label": "Chinese name",
+              "widget": "string"
+            },
+            {
+              "name": "position",
+              "label": "Position",
+              "widget": "string"
+            },
+            {
+              "name": "specialty",
+              "label": "Field / specialty",
+              "widget": "string"
+            },
+            {
+              "name": "headshot",
+              "label": "Headshot",
+              "widget": "image"
+            },
+            {
+              "name": "headshot_alt",
+              "label": "Headshot description",
+              "widget": "string"
+            },
+            {
+              "name": "headshot_position",
+              "label": "Headshot crop position",
+              "widget": "string",
+              "hint": "50% 50% centers the picture; 50% 30% moves the focus upward."
+            },
+            {
+              "name": "affiliations",
+              "label": "Affiliations",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Name",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "Link",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "location",
+              "label": "Home / location lines",
+              "widget": "markdown"
+            },
+            {
+              "name": "biography",
+              "label": "Introduction",
+              "widget": "markdown"
+            },
+            {
+              "name": "personal_line",
+              "label": "Personal line",
+              "widget": "string"
+            },
+            {
+              "name": "links",
+              "label": "Professional & contact links",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Link text",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "Link address",
+                  "widget": "string"
+                },
+                {
+                  "name": "footer",
+                  "label": "Also show in footer",
+                  "widget": "boolean",
+                  "default": false
+                }
+              ]
+            },
+            {
+              "name": "cv",
+              "label": "CV PDF",
+              "widget": "file",
+              "hint": "The CV link in the navigation and introduction uses this file."
+            },
+            {
+              "name": "font",
+              "label": "Website font",
+              "widget": "select",
+              "options": [
+                {
+                  "label": "Fontin",
+                  "value": "fontin"
+                },
+                {
+                  "label": "Libertinus Serif",
+                  "value": "libertinus"
+                },
+                {
+                  "label": "Georgia (system font)",
+                  "value": "georgia"
+                }
+              ]
+            },
+            {
+              "name": "description",
+              "label": "Search engine description",
+              "widget": "text"
+            },
+            {
+              "name": "footer_location",
+              "label": "Footer location",
+              "widget": "string"
+            },
+            {
+              "name": "site_url",
+              "label": "Website address",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "label": "Homepage",
+          "file": "site/content/home.json",
+          "fields": [
+            {
+              "name": "background",
+              "label": "Background",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "body",
+                  "label": "Text",
+                  "widget": "markdown"
+                }
+              ]
+            },
+            {
+              "name": "recent_count",
+              "label": "Number of recent homepage posts",
+              "widget": "number",
+              "value_type": "int",
+              "min": 1,
+              "max": 12
+            },
+            {
+              "name": "featured_posts",
+              "label": "Additional homepage posts",
+              "widget": "list",
+              "field": {
+                "name": "slug",
+                "label": "Post address",
+                "widget": "string"
+              },
+              "hint": "Post addresses, e.g. university-band. These remain visible after newer posts arrive."
+            },
+            {
+              "name": "desk",
+              "label": "On my desk",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Journal / status",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Short title",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "Link",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "away_title",
+              "label": "Away from the desk heading",
+              "widget": "string"
+            },
+            {
+              "name": "away_body",
+              "label": "Away from the desk text",
+              "widget": "markdown"
+            },
+            {
+              "name": "away_line",
+              "label": "Personal closing line",
+              "widget": "string"
+            },
+            {
+              "name": "away_photo",
+              "label": "Away from the desk photo",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "image",
+                  "label": "Photo",
+                  "widget": "image"
+                },
+                {
+                  "name": "alt",
+                  "label": "Image description",
+                  "widget": "string"
+                },
+                {
+                  "name": "caption",
+                  "label": "Caption",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "research",
+          "label": "Research",
+          "file": "site/content/research.json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "publications",
+              "label": "Publications",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Paper title",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "DOI / paper link",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "status",
+                  "label": "Display year or In press",
+                  "widget": "string"
+                },
+                {
+                  "name": "year",
+                  "label": "Sort year",
+                  "widget": "number",
+                  "value_type": "int"
+                },
+                {
+                  "name": "authors",
+                  "label": "Authors",
+                  "widget": "markdown"
+                },
+                {
+                  "name": "journal",
+                  "label": "Journal / citation",
+                  "widget": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Recognition / funding note",
+                  "widget": "markdown",
+                  "required": false
+                }
+              ],
+              "hint": "In-press papers appear first, followed by descending year."
+            },
+            {
+              "name": "working",
+              "label": "Working papers",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Paper title",
+                  "widget": "string"
+                },
+                {
+                  "name": "coauthors",
+                  "label": "Coauthors",
+                  "widget": "markdown",
+                  "hint": "Link student names and add their student affiliation in parentheses. Bold can emphasize student coauthors."
+                },
+                {
+                  "name": "recognition",
+                  "label": "Recognition",
+                  "widget": "string",
+                  "required": false
+                }
+              ],
+              "hint": "Drag items to change their order."
+            },
+            {
+              "name": "progress",
+              "label": "Work in progress",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Paper title",
+                  "widget": "string"
+                },
+                {
+                  "name": "coauthors",
+                  "label": "Coauthors",
+                  "widget": "markdown",
+                  "hint": "Link student names and add their student affiliation in parentheses. Bold can emphasize student coauthors."
+                },
+                {
+                  "name": "recognition",
+                  "label": "Recognition",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "recognition",
+              "label": "Grants & recognition",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "years",
+                  "label": "Year(s)",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "Announcement link",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "body",
+                  "label": "Description",
+                  "widget": "markdown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "teaching",
+          "label": "Teaching",
+          "file": "site/content/teaching.json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "courses",
+              "label": "Current courses",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "label",
+                  "label": "Course number / year",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Course title",
+                  "widget": "string"
+                },
+                {
+                  "name": "description",
+                  "label": "Concise description",
+                  "widget": "markdown"
+                }
+              ]
+            },
+            {
+              "name": "earlier",
+              "label": "Earlier teaching",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "body",
+                  "label": "Text",
+                  "widget": "markdown"
+                }
+              ]
+            },
+            {
+              "name": "mentoring",
+              "label": "Research mentoring",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "body",
+                  "label": "Name, affiliation & role",
+                  "widget": "markdown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "label": "Misc",
+          "file": "site/content/misc.json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "leibo",
+              "label": "Leibo",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "body",
+                  "label": "Text",
+                  "widget": "markdown"
+                },
+                {
+                  "name": "photos",
+                  "label": "Photos",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "image",
+                      "label": "Photo",
+                      "widget": "image"
+                    },
+                    {
+                      "name": "alt",
+                      "label": "Image description",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "caption",
+                      "label": "Caption",
+                      "widget": "string",
+                      "required": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "music",
+              "label": "Music",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "body",
+                  "label": "Text",
+                  "widget": "markdown"
+                },
+                {
+                  "name": "photos",
+                  "label": "Photos",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "image",
+                      "label": "Photo",
+                      "widget": "image"
+                    },
+                    {
+                      "name": "alt",
+                      "label": "Image description",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "caption",
+                      "label": "Caption",
+                      "widget": "string",
+                      "required": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "community_title",
+              "label": "Community heading",
+              "widget": "string"
+            },
+            {
+              "name": "community_body",
+              "label": "Community text & links",
+              "widget": "markdown"
+            },
+            {
+              "name": "personal_title",
+              "label": "At home & outdoors heading",
+              "widget": "string"
+            },
+            {
+              "name": "personal_body",
+              "label": "At home & outdoors text",
+              "widget": "markdown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "posts",
+      "label": "Blog posts",
+      "label_singular": "Post",
+      "folder": "site/content/posts",
+      "create": true,
+      "delete": true,
+      "extension": "json",
+      "format": "json",
+      "slug": "{{fields.slug}}",
+      "identifier_field": "title",
+      "summary": "{{date}} — {{title}}",
+      "sortable_fields": [
+        {
+          "field": "date",
+          "default_sort": "desc"
+        },
+        "title"
+      ],
+      "view_filters": [
+        {
+          "label": "Published",
+          "field": "published",
+          "pattern": true
+        },
+        {
+          "label": "Unpublished",
+          "field": "published",
+          "pattern": false
+        }
+      ],
+      "preview_path": "posts/{{fields.slug}}.html",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "widget": "string"
+        },
+        {
+          "name": "slug",
+          "label": "Post address",
+          "widget": "string",
+          "hint": "Use lowercase words separated by hyphens. Keep this stable after publishing.",
+          "pattern": [
+            "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "Use lowercase words separated by hyphens."
+          ]
+        },
+        {
+          "name": "date",
+          "label": "Date",
+          "widget": "datetime",
+          "date_format": "YYYY-MM-DD",
+          "time_format": false,
+          "format": "YYYY-MM-DD",
+          "picker_utc": true
+        },
+        {
+          "name": "date_label",
+          "label": "Custom date label",
+          "widget": "string",
+          "required": false,
+          "hint": "Leave blank to use the date. For an older event, you can write Spring 2021."
+        },
+        {
+          "name": "category",
+          "label": "Category",
+          "widget": "select",
+          "options": [
+            "Research",
+            "Conferences",
+            "Music",
+            "Personal"
+          ]
+        },
+        {
+          "name": "summary",
+          "label": "Homepage summary",
+          "widget": "text"
+        },
+        {
+          "name": "body",
+          "label": "Post text",
+          "widget": "markdown",
+          "hint": "Use the toolbar to add links and inline photos."
+        },
+        {
+          "name": "photos",
+          "label": "Photo gallery",
+          "widget": "list",
+          "fields": [
+            {
+              "name": "image",
+              "label": "Photo",
+              "widget": "image"
+            },
+            {
+              "name": "alt",
+              "label": "Image description",
+              "widget": "string"
+            },
+            {
+              "name": "caption",
+              "label": "Caption",
+              "widget": "string",
+              "required": false
+            }
+          ],
+          "required": false
+        },
+        {
+          "name": "thumbnail_mode",
+          "label": "Homepage thumbnail",
+          "widget": "select",
+          "options": [
+            {
+              "label": "Automatic: first gallery or inline photo",
+              "value": "auto"
+            },
+            {
+              "label": "Choose a separate image",
+              "value": "custom"
+            },
+            {
+              "label": "No thumbnail",
+              "value": "none"
+            }
+          ],
+          "default": "auto"
+        },
+        {
+          "name": "thumbnail",
+          "label": "Chosen homepage thumbnail",
+          "widget": "image",
+          "required": false
+        },
+        {
+          "name": "thumbnail_alt",
+          "label": "Thumbnail description",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "published",
+          "label": "Include on the website",
+          "widget": "boolean",
+          "default": true,
+          "hint": "Turn off to remove this post from the public website while keeping its content."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "intro": "I bring enthusiasm to every class. Alongside the “what” and “how” of analytics, I ask why a method matters, what its results mean, and who should care.",
+  "courses": [
+    {
+      "label": "BNAL 432 / 532 · 2026",
+      "title": "Predictive Analytics for Business",
+      "description": "Forecasting and predictive modeling in R, with an emphasis on choosing methods, evaluating predictions, and applying them to business decisions."
+    },
+    {
+      "label": "BNAL 407 / 507 · 2025–2026",
+      "title": "Prescriptive Analytics of Management Science",
+      "description": "Formulating and solving optimization models in Excel, interpreting trade-offs, and understanding their uses and limitations in business decisions."
+    },
+    {
+      "label": "BNAL 206 · 2025",
+      "title": "Business Analytics I",
+      "description": "Descriptive statistics, probability, hypothesis testing, and decision-making under uncertainty, using Excel and business applications."
+    }
+  ],
+  "earlier": [
+    {
+      "title": "University of New Mexico · 2024–2025",
+      "body": "Healthcare Operations Management · Health Analytics · Introduction to Health Administration"
+    },
+    {
+      "title": "University of Minnesota · 2018",
+      "body": "Supply Chain and Operations"
+    }
+  ],
+  "mentoring": [
+    {
+      "body": "**Yanxia Yang**  \nPhD student in Information Technology, Old Dominion University · Research supervisor"
+    },
+    {
+      "body": "**[Shenghan Li](https://carlsonschool.umn.edu/faculty/shenghan-li)**  \nPhD student in Supply Chain & Operations, University of Minnesota · External research co-advisor"
+    }
+  ]
+}

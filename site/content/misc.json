@@ -1,0 +1,79 @@
+{
+  "intro": "Music, home, community, and the things that make a life.",
+  "leibo": {
+    "title": "From Leibo, Sichuan",
+    "body": "I grew up in Leibo, in China’s Liangshan Yi Autonomous Prefecture. My parents lived and worked there for more than 30 years before recently retiring. The region’s beautiful landscapes sit alongside deep inequities in education, healthcare, and living conditions. Growing up there shaped my interest in delivering services to underserved populations.\n\nThe region is predominantly home to the Yi ethnic minority. My first name, Yi (懿), is a coincidence: I am not ethnically Yi (彝).",
+    "photos": [
+      {
+        "image": "/assets/leibo-9.webp",
+        "alt": "Mountains and a lake in Leibo, Sichuan",
+        "caption": "Leibo · Photographs by my dad, Xiaojun Tang"
+      },
+      {
+        "image": "/assets/leibo-10.webp",
+        "alt": "Leibo landscape and community, photograph 2 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-1.webp",
+        "alt": "Leibo landscape and community, photograph 3 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-2.webp",
+        "alt": "Leibo landscape and community, photograph 4 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-3.webp",
+        "alt": "Leibo landscape and community, photograph 5 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-4.webp",
+        "alt": "Leibo landscape and community, photograph 6 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-5.webp",
+        "alt": "Leibo landscape and community, photograph 7 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-6.webp",
+        "alt": "Leibo landscape and community, photograph 8 by Xiaojun Tang",
+        "caption": ""
+      },
+      {
+        "image": "/assets/leibo-7.webp",
+        "alt": "Leibo landscape and community, photograph 9 by Xiaojun Tang",
+        "caption": ""
+      }
+    ]
+  },
+  "music": {
+    "title": "A life with music",
+    "body": "I play classical clarinet and enjoy band conducting. I currently perform with the **[ODU Symphony Orchestra](https://www.odu.edu/music/ensembles/symphony-orchestra)** and the **[Chesapeake Bay Wind Ensemble](https://cbwe.org/)**.\n\nI served as student president of the Tsinghua University Symphonic Band in 2013–2014. At Minnesota, I played in the University Band, Campus Orchestra, and Summer Orchestra for many years.\n\nMy roommate, [Sheng Chen](https://yyxy.muc.edu.cn/info/1722/13321.htm), and I performed Mendelssohn’s [*Konzertstück No. 2, Op. 114*](https://imslp.org/wiki/Konzertst%C3%BCck_No.2,_Op.114_(Mendelssohn,_Felix)) as a clarinet duet at his doctoral recital. Sheng is now an assistant professor of clarinet performance at Minzu University of China.\n\nIn spring 2021, I conducted the UMN University Band.",
+    "photos": [
+      {
+        "image": "/assets/music-1.webp",
+        "alt": "Yi Tang performing on clarinet",
+        "caption": "On clarinet, and occasionally on the podium."
+      },
+      {
+        "image": "/assets/music-2.webp",
+        "alt": "A clarinet recital with piano accompaniment",
+        "caption": ""
+      },
+      {
+        "image": "/assets/music-3.webp",
+        "alt": "Yi Tang conducting a band",
+        "caption": ""
+      }
+    ]
+  },
+  "community_title": "ORAI China · 运筹OR帷幄",
+  "community_body": "I am Vice President of ORAI China, a nonprofit community promoting public understanding of operations research and analytics. Our volunteers share academic articles, conference news, videos, meet-ups, and invited talks, primarily in Mandarin.\n\nAt the time of an earlier community update, ORAI China had reached more than 100,000 subscribers and brought together more than 100 contributors.\n\nWeChat: 运筹OR帷幄[Zhihu](https://www.zhihu.com/org/yun-chou-orwei-wo)[Bilibili](https://space.bilibili.com/403058474/)",
+  "personal_title": "At home & outdoors",
+  "personal_body": "I am happily married to Tianni Guo, the 2023 National Dual Language Teacher of the Year. We share our home with Nova, our lovely, slightly cranky cat. Away from my desk and the music stand, I enjoy table tennis and road cycling."
+}

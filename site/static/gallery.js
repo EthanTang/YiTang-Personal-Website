@@ -1,0 +1,5 @@
+const box=document.querySelector('.lightbox');let items=[],index=0;
+function show(){const image=items[index].querySelector('img');box.querySelector('img').src=image.src;box.querySelector('img').alt=image.alt;box.querySelector('[data-counter]').textContent=`${index+1} / ${items.length}`;box.querySelector('p').textContent=items[index].closest('figure')?.querySelector('figcaption')?.textContent||image.alt;}
+document.querySelectorAll('[data-gallery]').forEach(button=>button.addEventListener('click',()=>{items=[...document.querySelectorAll(`[data-gallery="${button.dataset.gallery}"]`)];index=items.indexOf(button);show();box.showModal();}));
+function step(n){index=(index+n+items.length)%items.length;show();}
+box.querySelector('[data-prev]').addEventListener('click',()=>step(-1));box.querySelector('[data-next]').addEventListener('click',()=>step(1));box.querySelector('[data-close]').addEventListener('click',()=>box.close());box.addEventListener('keydown',e=>{if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);});box.addEventListener('click',e=>{if(e.target===box)box.close();});

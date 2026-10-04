@@ -1,0 +1,97 @@
+{
+  "intro": "My work connects healthcare operations, digital technology, and equity.",
+  "publications": [
+    {
+      "title": "De-Sludging High-Friction Frontlines: Designing an AI-Mediated Service Gateway for Mental Health",
+      "url": "https://doi.org/10.1177/10946705261487151",
+      "status": "In press",
+      "year": 2026,
+      "authors": "Yi Tang, Kingshuk K. Sinha & Adam Moen",
+      "journal": "Journal of Service Research",
+      "note": "Supported by the Cisco Tech for Healthcare research grant."
+    },
+    {
+      "title": "Wastewater Measures of SARS-CoV-2 Accurately Predict Frequency of Symptomatic Infections in the Community",
+      "url": "https://doi.org/10.1093/infdis/jiaf242",
+      "status": "2025",
+      "year": 2025,
+      "authors": "C. D. Doss et al., including Yi Tang",
+      "journal": "The Journal of Infectious Diseases · 232(3), e459–e465",
+      "note": ""
+    },
+    {
+      "title": "Towards Achieving Mental Health Equity for the Underserved Population: Evaluating the Potential of Mobile Apps",
+      "url": "https://doi.org/10.1177/10591478231224914",
+      "status": "2024",
+      "year": 2024,
+      "authors": "Yi Tang, Kingshuk K. Sinha, Adam Moen & Necati Ertekin",
+      "journal": "Production and Operations Management · 33(1), 87–107",
+      "note": "Finalist, 2023 POMS College of Service Operations Management Best Student Paper."
+    }
+  ],
+  "working": [
+    {
+      "title": "Telehealth and Continuity of Care in Mental Health Care Delivery: Evidence from a U.S. Nationwide Claims Database",
+      "coauthors": "**[Shenghan Li](https://carlsonschool.umn.edu/faculty/shenghan-li)** (PhD student, UMN) and Kingshuk K. Sinha",
+      "recognition": "Shenghan Li’s telehealth and continuity-of-care project is a finalist in the 2026 DSI Doctoral Research Showcase. The competition is scheduled for November 21, 2026."
+    },
+    {
+      "title": "Gender and Racial Gaps in Federal Procurement for Veteran-owned Small Businesses",
+      "coauthors": "Dwaipayan Roy",
+      "recognition": ""
+    },
+    {
+      "title": "Enhancing Telemental Health Uptake: The Critical Role of Technological Infrastructure and Parity in Improving Population Mental Health Condition",
+      "coauthors": "Eric Xu and Kingshuk K. Sinha",
+      "recognition": ""
+    }
+  ],
+  "progress": [
+    {
+      "title": "Large Language Models for Optimization Modeling: A Survey of Methods, Benchmarks, and Open Challenges",
+      "coauthors": "Harris Wu",
+      "recognition": ""
+    },
+    {
+      "title": "Mapping the Economics of IS: An AI-Driven Analytical Model Repository",
+      "coauthors": "Jessica Wu and Harris Wu",
+      "recognition": ""
+    },
+    {
+      "title": "The relationship between IT investment and firms’ CSR performance",
+      "coauthors": "Hansol Lee",
+      "recognition": ""
+    },
+    {
+      "title": "Generative AI and Medical Education Competencies",
+      "coauthors": "Anca D. Dobrian and Ismail El Moudden",
+      "recognition": ""
+    }
+  ],
+  "recognition": [
+    {
+      "years": "2025",
+      "title": "Elwood S. Buffa Doctoral Dissertation Award",
+      "url": "https://decisionsciences.org/conference/annual-2025/2025-annual-conference-institute-and-conference-award-winners/",
+      "body": "Decision Sciences Institute · Co-winner with Hanu Tyagi"
+    },
+    {
+      "years": "2025–2027",
+      "title": "OMNette",
+      "url": "",
+      "body": "A knowledge hub for operations management datasets and AI-enabled decision-making. Principal investigator; Harris Wu, collaborator. Strome Problem-Solving Challenge · $15,000 total award."
+    },
+    {
+      "years": "2021–2023",
+      "title": "Cisco Tech for Healthcare",
+      "url": "",
+      "body": "AI-enabled service frontlines for mental health. Co-investigator; Kingshuk K. Sinha, principal investigator. $180,000 total project funding."
+    },
+    {
+      "years": "2020–2021",
+      "title": "Leadership in Equity, Inclusion and Diversity Fellowship",
+      "url": "https://grad.umn.edu/news-events/news-overview/announcing-2020-2021-leadership-equity-inclusion-and-diversity-leid",
+      "body": "University of Minnesota"
+    }
+  ]
+}
