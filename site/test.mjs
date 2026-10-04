@@ -22,6 +22,7 @@ try{
  // Every local generated link and image must resolve, including nested post routes.
  function check(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,e.name);if(e.isDirectory())check(file);else if(e.name.endsWith('.html')){for(const m of fs.readFileSync(file,'utf8').matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split('#')[0];if(/^(https?:|mailto:)/.test(ref))continue;const target=ref.startsWith('/')?path.join(output,ref):path.resolve(path.dirname(file),ref);assert.ok(fs.existsSync(target),'Missing local target '+ref+' in '+e.name);}}}}check(output);
  const config=JSON.parse(read('admin/config.yml'));assert.equal(config.backend.branch,'main');assert.ok(!config.local_backend);
+ process.env.CMS_BRANCH='website-redesign';build({contentRoot:content,output,branch:'cms/posts/editing-test'});assert.equal(JSON.parse(read('admin/config.yml')).backend.branch,'website-redesign');delete process.env.CMS_BRANCH;
  build({contentRoot:content,output,branch:'website-redesign',local:true});assert.ok(JSON.parse(read('admin/config.yml')).local_backend);assert.equal(JSON.parse(read('admin/config.yml')).backend.branch,'website-redesign');
  console.log('Passed: create, edit, delete, unpublish, inline links/photos, thumbnail modes, profile/font changes, paper order, local references, and production/local editor configuration.');
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}

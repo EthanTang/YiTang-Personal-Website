@@ -1,6 +1,6 @@
 # Deployment and editing
 
-The approved redesign lives in `site/`. The original Hugo source remains in the repository so the previous version can be recovered. The redesign branch is `website-redesign`; production is currently `main`.
+The approved redesign lives in `site/`. The original Hugo source remains in the repository so the previous version can be recovered. Netlify production now deploys `website-redesign` directly, as requested. The old website remains on `main`.
 
 ## Build
 
@@ -26,7 +26,7 @@ The homepage displays the newest three posts plus the retained conducting post. 
 1. Create a GitHub OAuth App in Settings → Developer settings → OAuth Apps.
 2. Application name: Yi Tang Website Editor. Homepage: `https://yitang.info`. Authorization callback: `https://api.netlify.com/auth/done`.
 3. In the existing Netlify project, open Project configuration → Security → OAuth → Install Provider. Select GitHub and enter the application's Client ID and Client Secret there. Keep the secret in Netlify, never in repository content or chat.
-4. Open the preview's `/admin/`, sign in with GitHub, and test a draft. The generated CMS configuration edits the deployment's branch, so a redesign preview edits `website-redesign`, not `main`. Production edits `main`.
+4. Open `/admin/`, sign in with GitHub, and test a draft. `CMS_BRANCH` in `netlify.toml` keeps both the live editor and draft-preview editors saving to `website-redesign`. Change this setting if the production branch changes later.
 
 References: https://decapcms.org/docs/github-backend/ and https://docs.netlify.com/manage/security/secure-access-to-sites/oauth-provider-tokens/.
 
@@ -40,11 +40,10 @@ Run `node site/dev.mjs` from the repository. It serves localhost port 8766 and r
 
 ## Release sequence
 
-1. Push the redesign branch and open a pull request against main.
-2. Verify the existing Netlify project produces a Deploy Preview with the new build settings.
-3. Complete OAuth setup and test editing on the preview, including photos, draft persistence, and deletion.
-4. Review desktop/mobile pages and old-route redirects on the preview.
-5. Merge only after review. Verify `yitang.info`, HTTPS, and the production editor afterward.
+1. Push changes to `website-redesign`; Netlify automatically builds and publishes that branch.
+2. Verify `yitang.info`, HTTPS, page assets, and old-route redirects.
+3. Complete OAuth setup and test editing, including photos and draft persistence.
+4. Review editorial drafts before publishing. The open pull request against `main` is optional while Netlify deploys `website-redesign` directly.
 
 ## Validation completed locally
 
