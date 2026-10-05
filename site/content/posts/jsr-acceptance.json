@@ -1,14 +1,19 @@
 {
-  "title": "A paper accepted at JSR",
-  "slug": "jsr-acceptance",
-  "date": "2026-08-12",
-  "date_label": "August 12, 2026",
-  "category": "Research",
+  "photos": [
+    {
+      "image": "/assets/uploads/jsr-logo.png",
+      "alt": "jsr logo"
+    }
+  ],
+  "body": "“De-Sludging High-Friction Frontlines: Designing an AI-Mediated Service Gateway for Mental Health” has been accepted by the Journal of Service Research, a top-tier journal on service research and an ABDC A* journal. I am excited that the second essay of my dissertation finally found a home. The paper is a bit unusual for an empirical research as we did not actually have much data and the review process reflects that struggle. We are very grateful that the review team has provided tremendously constructive and detailed feedback. The paper was almost entirely re-written based on those feedback and now focuses on developing a research framework for high-friction frontlines where customers may be reluctant or unable to even initiate the service. We acknowledge the positive role of AI in improving the agency of customers to initiate a necessary service like mental health care while emphasizing a key design element of such AI-enabled system: more human-like AI system is not always better because customers may have the impression that such system will quietly judge--a key barrier to customers' agency to act.\n\nThe paper is joint work with Kingshuk K. Sinha and Adam Moen, supported by Cisco Tech for Healthcare funding. It is currently in press.\n\n[Publisher DOI](https://doi.org/10.1177/10946705261487151)",
+  "date_label": "",
   "summary": "Our paper on an AI-mediated gateway for mental health has been accepted.",
-  "body": "“De-Sludging High-Friction Frontlines: Designing an AI-Mediated Service Gateway for Mental Health” has been accepted by the Journal of Service Research.\n\nThe paper is joint work with Kingshuk K. Sinha and Adam Moen, supported by Cisco Tech for Healthcare funding. It is currently in press.\n\n[Publisher DOI](https://doi.org/10.1177/10946705261487151)",
-  "photos": [],
-  "thumbnail_mode": "auto",
+  "slug": "2026-08-12-de-sludging-jsr-acceptance",
   "thumbnail": "",
+  "published": true,
+  "date": "2026-08-12",
+  "thumbnail_mode": "auto",
   "thumbnail_alt": "",
-  "published": true
+  "title": "A paper accepted at JSR",
+  "category": "Research"
 }
