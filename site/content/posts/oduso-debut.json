@@ -1,0 +1,32 @@
+{
+  "photos": [
+    {
+      "image": "/assets/uploads/oduso-debut-woodwinds.webp",
+      "alt": "Yi Tang with fellow woodwind players on the University Theatre stage",
+      "caption": "With the woodwind section."
+    },
+    {
+      "image": "/assets/uploads/oduso-debut-onstage.webp",
+      "alt": "Yi Tang holding his clarinet for a post-concert photo on stage",
+      "caption": "A post-concert moment on stage."
+    },
+    {
+      "image": "/assets/uploads/oduso-debut-bow.webp",
+      "alt": "The conductor acknowledging the orchestra on the University Theatre stage",
+      "caption": "The orchestra taking a bow."
+    },
+    {
+      "image": "/assets/uploads/oduso-debut-horn-concerto.webp",
+      "alt": "Horn soloist performing with the ODU Symphony Orchestra",
+      "caption": "Strauss’s First Horn Concerto, featuring Jacob Wilder."
+    }
+  ],
+  "body": "On October 1, 2026, I made my debut with the [ODU Symphony Orchestra](https://www.odu.edu/music/ensembles/symphony-orchestra) at University Theatre. I played **Clarinet 2** in Schumann’s Symphony No. 3 in E-flat major, Op. 97—the “Rhenish.”\n\nOur concert, **Classical Roots: Mozart, Strauss & Schumann**, began at 7:30 p.m. and was led by music director and conductor Paul Sanho Kim. Jacob Wilder, Virginia Symphony Orchestra principal horn and ODU horn professor, joined us as soloist for Strauss’s First Horn Concerto.\n\n**The program**\n\n- Mozart — *The Marriage of Figaro* Overture\n- Strauss — Horn Concerto No. 1 in E-flat major\n- Schumann — Symphony No. 3 in E-flat major, Op. 97 (“Rhenish”)\n\n[Concert details at ODUArts](https://oduartstix.universitytickets.com/w/event.aspx?id=4608&p=1).",
+  "summary": "Clarinet 2 in Schumann’s “Rhenish” Symphony, and my first concert with the ODU Symphony Orchestra.",
+  "slug": "oduso-debut",
+  "published": true,
+  "date": "2026-10-05",
+  "thumbnail_mode": "auto",
+  "title": "My debut with the ODU Symphony Orchestra",
+  "category": "Music"
+}
