@@ -657,6 +657,7 @@
         {
           "name": "photos",
           "label": "Photo gallery",
+          "label_singular": "Photo",
           "widget": "list",
           "fields": [
             {
