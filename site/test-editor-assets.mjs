@@ -8,12 +8,12 @@ const end=bundle.indexOf('Hc.cache=new WeakMap',start);
 assert.ok(start>0&&end>start,'Pinned Decap getAsset action must be identifiable');
 const wrap=object=>({get:key=>object[key]});
 const entry=files=>wrap({mediaFiles:{find:predicate=>files.map(wrap).find(predicate)}});
-const context={oh:(_config,_collection,_entry,p)=>p.replace('/assets/uploads/','site/static/assets/uploads/'),Ba:asset=>asset,$o:p=>/^https?:/.test(p),zc:asset=>({asset}),qc:{url:'empty.svg'}};
+const context={Rc:state=>state.activeDraftFiles||[],oh:(_config,_collection,_entry,p)=>p.replace('/assets/uploads/','site/static/assets/uploads/'),Ba:asset=>asset,$o:p=>/^https?:/.test(p),zc:asset=>({asset}),qc:{url:'empty.svg'}};
 vm.runInNewContext(bundle.slice(start,end),context);
 const path='site/static/assets/uploads/jsr.png';
 const state={config:{},medias:{[path]:{asset:{url:'/assets/uploads/jsr.png'},error:Error('production 404')}}};
-const resolve=(files,source='/assets/uploads/jsr.png')=>context.Wc({entry:entry(files),path:source})(()=>{},()=>state);
-// Reopened saved draft wins over an earlier cached production failure.
+const resolve=(files,source='/assets/uploads/jsr.png')=>{state.activeDraftFiles=files;return context.Wc({entry:entry([]),path:source})(()=>{},()=>state);};
+// Even when the bound entry snapshot has no media, the active draft wins over an earlier cached production failure.
 assert.equal(resolve([{path,draft:true,displayURL:'blob:saved-draft',file:{name:'jsr.png'}}]).url,'blob:saved-draft');
 // Fresh uploads still use the local object URL before any save/deployment.
 assert.equal(resolve([{path,draft:true,url:'blob:new-upload'}]).url,'blob:new-upload');

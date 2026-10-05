@@ -2,8 +2,8 @@
 
 The vendored `decap-cms.js` has one change in the core `getAsset` action
 (`Wc` in this pinned bundle, from `decap-cms-core/src/actions/media.ts`).
-Before consulting the global path-only asset cache, it checks the supplied
-entry's `mediaFiles` for a draft file with the resolved repository path and
+Before consulting the global path-only asset cache, it uses Decap's `selectMediaFiles` selector (`Rc`) to check the active
+draft's `mediaFiles` for a draft file with the resolved repository path and
 returns its existing `url`/`displayURL` or local `File` as an AssetProxy.
 
 This keeps each entry's draft media authoritative even if a production asset
