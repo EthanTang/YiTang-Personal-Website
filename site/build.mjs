@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {marked} from './vendor/marked.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
@@ -24,6 +25,9 @@ export function build({output=path.join(root,'public'),local=false,branch=proces
   return `<!doctype html><html lang="en" data-font="${esc(profile.font||'fontin')}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${esc(profile.description)}"><title>${esc(title)} · ${esc(profile.name)}</title><link rel="stylesheet" href="/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="header"><a class="brand" href="/">${esc(profile.name)}</a><nav class="nav" aria-label="Main navigation">${nav}<a href="${url(cv)}">CV</a></nav></header><main id="main">${body}</main><footer class="footer"><span>© ${year} ${esc(profile.name)} · ${esc(profile.footer_location)}</span><div class="footer-links">${profile.links.filter(l=>l.footer).map(l=>linked(l.label,l.url)).join('')}</div></footer>${extra}</body></html>`;
  }
  const write=(name,html)=>fs.writeFileSync(path.join(output,name),html);
+ // Editor scripts must change URL when their contents change, including patches.
+ const adminIndex=path.join(output,'admin/index.html');
+ fs.writeFileSync(adminIndex,fs.readFileSync(adminIndex,'utf8').replace(/src="(\/admin\/[^"?]+\.js)"/g,(_match,src)=>`src="${src}?v=${createHash('sha256').update(fs.readFileSync(path.join(output,src))).digest('hex').slice(0,12)}"`));
  const header=(title,intro)=>`<div class="page-header"><h1>${esc(title)}</h1><p>${esc(intro)}</p></div>`;
  const thumbnail=p=>p.thumbnail_mode==='none'?null:p.thumbnail_mode==='custom'&&p.thumbnail?{image:p.thumbnail,alt:p.thumbnail_alt}:p.photos?.[0]||firstBodyPhoto(p.body);
  function firstBodyPhoto(body){const match=String(body||'').match(/!\[([^\]]*)\]\(([^\s)]+)(?:\s+"[^"]*")?\)/);return match?{alt:match[1],image:match[2]}:null;}
