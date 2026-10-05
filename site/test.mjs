@@ -19,6 +19,10 @@ try{
  const firstPreviewSource=image.src;recover();assert.equal(previewRetries.length,1);previewRetries.shift()();assert.notEqual(image.src,firstPreviewSource);
  recover();previewRetries.shift()();recover();assert.equal(previewRetries.length,0);assert.equal(image.dataset.draftAttempts,'3');
  image.src='/assets/uploads/second.jpeg';recover();assert.ok(image.src.includes('/second.jpeg?draft='));assert.equal(image.dataset.draftAttempts,'1');
+ assert.equal(previewContext.editorDraftSlug('#/collections/posts/entries/oduso-debut'),'oduso-debut');assert.equal(previewContext.editorDraftSlug('#/collections/posts/new'),null);assert.equal(previewContext.editorDraftSlug('#/collections/pages/entries/home'),null);
+ previewContext.window={location:{hash:'#/collections/posts/entries/oduso-debut'}};
+ const controlImage={tagName:'IMG',dataset:{},isConnected:true,src:'/assets/uploads/control.webp',getAttribute(){return this.src;}};
+ previewContext.recoverEditorImage({target:controlImage});assert.ok(controlImage.src.includes('cms%2Fposts%2Foduso-debut'));assert.ok(controlImage.src.includes('/control.webp?draft='));
  build({contentRoot:content,output});
  assert.equal((read('index.html').match(/note-entry/g)||[]).length,4);
  assert.ok(read('index.html').includes('Usually a clarinet or a cat nearby.'));
