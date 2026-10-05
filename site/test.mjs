@@ -1,10 +1,19 @@
 import {build} from './build.mjs';
+import vm from 'node:vm';
 import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import assert from 'node:assert/strict';import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url)),tmp=fs.mkdtempSync(path.join(os.tmpdir(),'yi-tang-site-')),content=path.join(tmp,'content'),output=path.join(tmp,'public');
 fs.cpSync(path.join(root,'content'),content,{recursive:true});
 const save=(name,value)=>fs.writeFileSync(path.join(content,name+'.json'),JSON.stringify(value));
 const read=name=>fs.readFileSync(path.join(output,name),'utf8');
 try{
+ const previewContext={CMS:{registerPreviewStyle(){},registerPreviewTemplate(){}},createClass:component=>component};
+ vm.runInNewContext(fs.readFileSync(path.join(root,'static/admin/preview.js'),'utf8'),previewContext);
+ assert.equal(previewContext.draftImageFallback('/assets/uploads/flyer.png','strome-seminar'),'https://raw.githubusercontent.com/EthanTang/YiTang-Personal-Website/cms%2Fposts%2Fstrome-seminar/site/static/assets/uploads/flyer.png');
+ assert.equal(previewContext.draftImageFallback('blob:https://yitang.info/test','strome-seminar'),null);
+ assert.equal(previewContext.draftImageFallback('/assets/uploads/flyer.png','../bad'),null);
+ const image={tagName:'IMG',getAttribute:()=>'/assets/uploads/flyer.png'};
+ previewContext.recoverDraftImage.call({props:{entry:{getIn:()=> 'strome-seminar'}}},{target:image});assert.ok(image.src.includes('cms%2Fposts%2Fstrome-seminar'));
+ assert.equal(previewContext.draftImageFallback(image.src,'strome-seminar'),null);
  build({contentRoot:content,output});
  assert.equal((read('index.html').match(/note-entry/g)||[]).length,4);
  assert.ok(read('index.html').includes('Usually a clarinet or a cat nearby.'));
