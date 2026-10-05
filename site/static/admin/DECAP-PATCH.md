@@ -2,6 +2,11 @@
 
 The vendored `decap-cms.js` has one change in the core `getAsset` action
 (`Wc` in this pinned bundle, from `decap-cms-core/src/actions/media.ts`).
+Root-relative paths under the configured `public_folder` are first mapped to
+the corresponding repository `media_folder` path, preserving subfolders.
+Stock Decap treats `/assets/uploads/...` as an absolute external URL, bypassing
+Git-backed draft loading entirely. External URLs retain stock behavior.
+
 Before consulting the global path-only asset cache, it uses Decap's `selectMediaFiles` selector (`Rc`) to check the active
 draft's `mediaFiles` for a draft file with the resolved repository path and
 returns its existing `url`/`displayURL` or local `File` as an AssetProxy.
