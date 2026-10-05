@@ -1,5 +1,4 @@
 import {build} from './build.mjs';
-import vm from 'node:vm';
 import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import assert from 'node:assert/strict';import {fileURLToPath} from 'node:url';
 const root=path.dirname(fileURLToPath(import.meta.url)),tmp=fs.mkdtempSync(path.join(os.tmpdir(),'yi-tang-site-')),content=path.join(tmp,'content'),output=path.join(tmp,'public');
 fs.cpSync(path.join(root,'content'),content,{recursive:true});
@@ -8,6 +7,7 @@ const read=name=>fs.readFileSync(path.join(output,name),'utf8');
 try{
  await import('./test-editor-assets.mjs');
  build({contentRoot:content,output});
+ assert.match(read('admin/index.html'),/decap-cms\.js\?v=[a-f0-9]{12}/);
  assert.equal((read('index.html').match(/note-entry/g)||[]).length,4);
  assert.ok(read('index.html').includes('Usually a clarinet or a cat nearby.'));
  assert.ok(!read('index.html').includes('Local prototype'));
@@ -23,7 +23,7 @@ try{
  fs.unlinkSync(path.join(content,'posts/editing-test.json'));build({contentRoot:content,output});assert.ok(!fs.existsSync(path.join(output,'posts/editing-test.html')));
  const profile=JSON.parse(fs.readFileSync(path.join(content,'profile.json')));profile.headshot='/assets/music-3.webp';profile.font='libertinus';save('profile',profile);build({contentRoot:content,output});assert.ok(read('index.html').includes('data-font="libertinus"'));assert.ok(read('index.html').includes('src="/assets/music-3.webp"'));
  // Every local generated link and image must resolve, including nested post routes.
- function check(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,e.name);if(e.isDirectory())check(file);else if(e.name.endsWith('.html')){for(const m of fs.readFileSync(file,'utf8').matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split('#')[0];if(/^(https?:|mailto:)/.test(ref))continue;const target=ref.startsWith('/')?path.join(output,ref):path.resolve(path.dirname(file),ref);assert.ok(fs.existsSync(target),'Missing local target '+ref+' in '+e.name);}}}}check(output);
+ function check(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,e.name);if(e.isDirectory())check(file);else if(e.name.endsWith('.html')){for(const m of fs.readFileSync(file,'utf8').matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split(/[?#]/)[0];if(/^(https?:|mailto:)/.test(ref))continue;const target=ref.startsWith('/')?path.join(output,ref):path.resolve(path.dirname(file),ref);assert.ok(fs.existsSync(target),'Missing local target '+ref+' in '+e.name);}}}}check(output);
  const config=JSON.parse(read('admin/config.yml'));assert.equal(config.backend.branch,'main');assert.ok(!config.local_backend);
  process.env.CMS_BRANCH='website-redesign';build({contentRoot:content,output,branch:'cms/posts/editing-test'});assert.equal(JSON.parse(read('admin/config.yml')).backend.branch,'website-redesign');delete process.env.CMS_BRANCH;
  build({contentRoot:content,output,branch:'website-redesign',local:true});assert.ok(JSON.parse(read('admin/config.yml')).local_backend);assert.equal(JSON.parse(read('admin/config.yml')).backend.branch,'website-redesign');
