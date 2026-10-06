@@ -55,5 +55,9 @@
   "font": "fontin",
   "description": "Yi Tang’s research, teaching, and occasional notes from life. Assistant Professor of Business Analytics at Old Dominion University.",
   "footer_location": "Norfolk, Virginia",
-  "site_url": "https://yitang.info"
+  "site_url": "https://yitang.info",
+  "analytics": {
+    "enabled": false,
+    "goatcounter_code": ""
+  }
 }

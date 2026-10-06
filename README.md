@@ -29,6 +29,18 @@ Open [the website editor](https://yitang.info/admin/) and sign in with GitHub.
 - `archive/hugo-site` preserves the complete old Hugo website at commit `ab2880e`. It is for reference and recovery, not ongoing development.
 - `cms/posts/...` branches hold editorial drafts until publication into `main`.
 
+## Traffic analytics
+
+Traffic tracking is optional and starts disabled. Create a free hosted account at
+https://www.goatcounter.com/signup, then enter the account name under
+**Website pages & settings → Profile & settings → Traffic analytics**, turn on
+tracking, and publish. Your dashboard is `https://ACCOUNT.goatcounter.com`.
+The account name is public; passwords and API keys never belong in the website.
+
+Counts cover the public domain only. Local development, Netlify preview domains,
+and the editor are excluded. Pretty URLs and `.html` routes are combined, and
+query strings are omitted from page names. New posts are included automatically.
+
 ## Build and preview
 
 Use Node.js 24. The production build needs no package installation.

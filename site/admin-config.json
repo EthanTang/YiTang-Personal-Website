@@ -150,6 +150,27 @@
               "name": "site_url",
               "label": "Website address",
               "widget": "string"
+            },
+            {
+              "name": "analytics",
+              "label": "Traffic analytics",
+              "widget": "object",
+              "fields": [
+                {
+                  "name": "enabled",
+                  "label": "Enable traffic tracking",
+                  "widget": "boolean",
+                  "default": false,
+                  "hint": "Turn on after creating your GoatCounter account. Only the live website is counted; editor and preview visits are excluded."
+                },
+                {
+                  "name": "goatcounter_code",
+                  "label": "GoatCounter account name",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "The name before .goatcounter.com in your dashboard address. No password or API key is needed."
+                }
+              ]
             }
           ]
         },
