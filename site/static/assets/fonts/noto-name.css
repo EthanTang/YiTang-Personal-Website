@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(noto-serif-sc-name-500.woff2) format('woff2');
+  unicode-range: U+5510, U+61ff;
+}

@@ -1,0 +1,23 @@
+{
+  "photos": [
+    {
+      "image": "/assets/uploads/322.jpeg",
+      "alt": "presentation photo"
+    },
+    {
+      "image": "/assets/uploads/scbresearchsem_09.30.26_dr.yitang.png",
+      "alt": "seminar flyer"
+    }
+  ],
+  "body": "I presented “Telehealth and Continuity of Care in Mental Health Care Delivery: Evidence from a U.S. Nationwide Claims Database” in the Strome Research Seminar Series at Old Dominion University. It is not common to have a brown-bag research seminar series at the college level. In my opinion, it is a great idea because it truly brings fresh eyes from all other disciplines. I got questions from faculty and graduate students from areas like finance, marketing, management, economics, among others. The kind of feedback I got, especially on causal inference methods (e.g., identification strategy), was amazing. Really grateful for this opportunity.\n\nThis is joint work with Shenghan Li and Kingshuk K. Sinha.",
+  "date_label": "",
+  "summary": "Telehealth, continuity of care, and a chance to share our ongoing work.",
+  "slug": "strome-seminar-09302026",
+  "thumbnail": "",
+  "published": true,
+  "date": "2026-09-30",
+  "thumbnail_mode": "auto",
+  "thumbnail_alt": "",
+  "title": "A research talk at Strome Research Seminar",
+  "category": "Research"
+}

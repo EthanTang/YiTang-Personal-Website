@@ -1,0 +1,41 @@
+{
+  "background": [
+    {
+      "title": "Before Norfolk",
+      "body": "Assistant Professor of Health Administration  \nUniversity of New Mexico  \n2024–2025"
+    },
+    {
+      "title": "Education",
+      "body": "PhD, Business Administration · 2024  \nMS, Statistics · 2024  \nUniversity of Minnesota–Twin Cities\n\nBE, Industrial Engineering · 2015  \nTsinghua University"
+    }
+  ],
+  "recent_count": 3,
+  "featured_posts": [
+    "university-band"
+  ],
+  "desk": [
+    {
+      "label": "JSR · In press",
+      "title": "AI-mediated service gateways for mental health",
+      "url": "research.html"
+    },
+    {
+      "label": "POM · 2024",
+      "title": "Mobile apps and mental health equity",
+      "url": "research.html"
+    },
+    {
+      "label": "Working paper",
+      "title": "Telehealth and continuity of care",
+      "url": "research.html"
+    }
+  ],
+  "away_title": "There’s more than work here.",
+  "away_body": "Music has been part of my life since Tsinghua. I now play with the ODU Symphony Orchestra and the Chesapeake Bay Wind Ensemble.\n\nThere’s also table tennis, road cycling, and Nova, our slightly cranky cat.",
+  "away_line": "Papers, reeds, and the occasional ride.",
+  "away_photo": {
+    "image": "/assets/leibo-9.webp",
+    "alt": "Mountain ridges and a lake in Leibo, Sichuan",
+    "caption": "Back home in Leibo · Photo by my dad, Xiaojun Tang"
+  }
+}

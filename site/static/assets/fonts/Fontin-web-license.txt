@@ -1,0 +1,2 @@
+Source: https://www.exljbris.com/eula.html
+Web embedding is permitted with the foundry attribution comment near @font-face. These files are embedded for this website, not offered as a font download package.

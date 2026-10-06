@@ -1,0 +1,10 @@
+{
+  "name": "yi-tang-personal-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "test": "node site/test.mjs"
+  },
+  "engines": { "node": ">=24" }
+}
