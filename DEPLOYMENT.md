@@ -1,6 +1,6 @@
 # Deployment and editing
 
-The approved redesign lives in `site/`. The original Hugo source remains in the repository so the previous version can be recovered. Netlify production now deploys `website-redesign` directly, as requested. The old website remains on `main`.
+The approved redesign lives in `site/`. The original Hugo source is preserved on `archive/hugo-site` at commit `ab2880e`; unused Hugo files have been removed from the active branch. Netlify production now deploys `website-redesign` directly, as requested. The old website also remains on `main` until the branch transition is completed.
 
 ## Build
 
@@ -47,4 +47,17 @@ Run `node site/dev.mjs` from the repository. It serves localhost port 8766 and r
 
 ## Validation completed locally
 
-Automated checks cover post create/edit/delete/unpublish, inline links and images, thumbnail modes, changing headshot/font, paper order, local asset/page references, and isolation of local/production CMS configuration. Browser testing saved, edited, and deleted a disposable post and uploaded a disposable photograph through Decap's local backend. No test content remains. Hosted login, GitHub draft workflow, and Netlify deployment require the account connection and remain to be verified on the hosted preview.
+Automated checks cover post create/edit/delete/unpublish, inline links and images, thumbnail modes, changing headshot/font, paper order, local asset/page references, and isolation of local/production CMS configuration. Browser testing saved, edited, and deleted a disposable post and uploaded a disposable photograph through Decap's local backend. No test content remains. Hosted GitHub login, draft saving and publication, Netlify deployment, gallery uploads, and draft-image loading have also been verified in the live editor.
+
+
+## Recommended transition to main
+
+The archive branch already preserves the old site. Keep it unchanged.
+
+1. Merge the current redesign into `main` using the existing redesign pull request. Preserve any newer CMS publications; do not reset or force-push either branch.
+2. Update `CMS_BRANCH` in `netlify.toml` to `main` and the local preview branch in `site/dev.mjs` to match. The build-generated editor config must save to the same branch Netlify publishes.
+3. Set Netlify’s production branch to `main`, retaining the existing build command and publish directory.
+4. Verify the live website, editor login, saving, publication, and photos. Existing CMS drafts should target `main` before they are published; check their pull requests and previews during the transition.
+5. Use `main` for future website maintenance. Retire `website-redesign` only after all existing drafts and references are accounted for.
+
+This transition has not yet been performed; production and the editor still use `website-redesign`.

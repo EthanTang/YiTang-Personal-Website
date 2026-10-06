@@ -1,51 +1,49 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+# Yi Tang’s personal website
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+Source for [yitang.info](https://yitang.info): research, teaching, personal notes, and a blog with photo galleries.
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Update the website
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+Open [the website editor](https://yitang.info/admin/) and sign in with GitHub.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- **Website pages & settings**: edit your profile, links, headshot, CV, homepage, research, teaching, and Misc.
+- **Blog posts**: create or edit posts, add hyperlinks, and upload photos with optional captions. The first gallery or inline photo becomes the homepage thumbnail unless you choose another image or disable it.
+- **Save** stores a draft. Review the preview, then **Publish** to update the live site.
+- Use an address such as `2026-09-05-shenghan-telehealth-dsi-finalist`: event date plus a specific topic. Keep published addresses stable; changing one requires a redirect for existing links.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## Repository layout
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+| Location | Purpose |
+| --- | --- |
+| `site/content/` | Editable page and post content |
+| `site/static/` | Fonts, photographs, CV, styles, gallery code, and editor |
+| `site/build.mjs` | Generates the website |
+| `site/test.mjs` | Content, asset, build, and editor regression checks |
+| `site/public/` | Generated output, ignored by Git |
+| `netlify.toml` | Hosting and production-editor branch settings |
+| `DEPLOYMENT.md` | Deployment and local-development details |
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Branches
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+- `website-redesign` currently supplies the live website and editor.
+- `archive/hugo-site` preserves the complete old Hugo website at commit `ab2880e`. It is for reference and recovery, not ongoing development.
+- `main` still contains the old site until the branch transition is completed. The recommended final arrangement is the new website on `main`, with the old site only on `archive/hugo-site`.
+- `cms/posts/...` branches hold editorial drafts until publication.
 
-## We ask you, humbly, to support this open source movement
+## Build and preview
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+Use Node.js 24. The production build needs no package installation.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+```sh
+node site/test.mjs
+node site/build.mjs
+node site/dev.mjs
+```
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+The local preview runs at `http://127.0.0.1:8766/`. See `DEPLOYMENT.md` for local editor setup.
 
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
+Netlify builds `website-redesign` with `node site/build.mjs` and publishes `site/public`.
 
-## Demo image credits
+## Licenses
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
-
-## Latest news
-
-<!--START_SECTION:news-->
-
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://wowchemy.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://wowchemy.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://wowchemy.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://wowchemy.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://wowchemy.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
+Retain `LICENSE.md` for the original template attribution. Third-party editor, Markdown-parser, and font licenses are included alongside their assets. The local Decap image-loading patch is documented in `site/static/admin/DECAP-PATCH.md`.

@@ -1,12 +1,7 @@
-# IDEs
+# Local tools and credentials
 .idea/
-
-# Hugo
-resources/
-public/
-jsconfig.json
 node_modules/
-go.sum
-.hugo_build.lock
-site/public/
 .env
+
+# Generated website
+site/public/
