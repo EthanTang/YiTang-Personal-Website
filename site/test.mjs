@@ -7,6 +7,9 @@ const read=name=>fs.readFileSync(path.join(output,name),'utf8');
 try{
  await import('./test-editor-assets.mjs');
  await import('./test-analytics.mjs');
+ // Test both tracking states independently of the live account configuration.
+ const baselineProfile=JSON.parse(fs.readFileSync(path.join(content,'profile.json')));
+ baselineProfile.analytics={enabled:false,goatcounter_code:''};save('profile',baselineProfile);
  build({contentRoot:content,output});
  assert.ok(!read('index.html').includes('data-goatcounter-code'));
  const analyticsProfile=JSON.parse(fs.readFileSync(path.join(content,'profile.json')));

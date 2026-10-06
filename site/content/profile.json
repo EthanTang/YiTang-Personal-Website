@@ -57,7 +57,7 @@
   "footer_location": "Norfolk, Virginia",
   "site_url": "https://yitang.info",
   "analytics": {
-    "enabled": false,
-    "goatcounter_code": ""
+    "enabled": true,
+    "goatcounter_code": "yitang"
   }
 }
