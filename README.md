@@ -25,10 +25,9 @@ Open [the website editor](https://yitang.info/admin/) and sign in with GitHub.
 
 ## Branches
 
-- `website-redesign` currently supplies the live website and editor.
+- `main` supplies the live website and editor and is the branch for future maintenance.
 - `archive/hugo-site` preserves the complete old Hugo website at commit `ab2880e`. It is for reference and recovery, not ongoing development.
-- `main` still contains the old site until the branch transition is completed. The recommended final arrangement is the new website on `main`, with the old site only on `archive/hugo-site`.
-- `cms/posts/...` branches hold editorial drafts until publication.
+- `cms/posts/...` branches hold editorial drafts until publication into `main`.
 
 ## Build and preview
 
@@ -42,7 +41,7 @@ node site/dev.mjs
 
 The local preview runs at `http://127.0.0.1:8766/`. See `DEPLOYMENT.md` for local editor setup.
 
-Netlify builds `website-redesign` with `node site/build.mjs` and publishes `site/public`.
+Netlify builds `main` with `node site/build.mjs` and publishes `site/public`.
 
 ## Licenses
 

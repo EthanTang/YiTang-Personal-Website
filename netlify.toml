@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "24"
-  CMS_BRANCH = "website-redesign"
+  CMS_BRANCH = "main"
 
 [context.deploy-preview]
   command = "node site/build.mjs"

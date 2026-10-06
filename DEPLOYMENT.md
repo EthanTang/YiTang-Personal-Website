@@ -1,6 +1,6 @@
 # Deployment and editing
 
-The approved redesign lives in `site/`. The original Hugo source is preserved on `archive/hugo-site` at commit `ab2880e`; unused Hugo files have been removed from the active branch. Netlify production now deploys `website-redesign` directly, as requested. The old website also remains on `main` until the branch transition is completed.
+The current website lives in `site/` on `main`. Netlify production and the GitHub editor both use `main`. The complete old Hugo source is preserved on `archive/hugo-site` at commit `ab2880e`; unused Hugo files have been removed from the active branch.
 
 ## Build
 
@@ -26,7 +26,7 @@ The homepage displays the newest three posts plus the retained conducting post. 
 1. Create a GitHub OAuth App in Settings → Developer settings → OAuth Apps.
 2. Application name: Yi Tang Website Editor. Homepage: `https://yitang.info`. Authorization callback: `https://api.netlify.com/auth/done`.
 3. In the existing Netlify project, open Project configuration → Security → OAuth → Install Provider. Select GitHub and enter the application's Client ID and Client Secret there. Keep the secret in Netlify, never in repository content or chat.
-4. Open `/admin/`, sign in with GitHub, and test a draft. `CMS_BRANCH` in `netlify.toml` keeps both the live editor and draft-preview editors saving to `website-redesign`. Change this setting if the production branch changes later.
+4. Open `/admin/`, sign in with GitHub, and test a draft. `CMS_BRANCH` in `netlify.toml` keeps both the live editor and draft-preview editors saving to `main`. Change this setting if the production branch changes later.
 
 References: https://decapcms.org/docs/github-backend/ and https://docs.netlify.com/manage/security/secure-access-to-sites/oauth-provider-tokens/.
 
@@ -38,26 +38,20 @@ Production uses Decap editorial workflow. Save drafts, review them, and publish 
 
 Run `node site/dev.mjs` from the repository. It serves localhost port 8766 and rebuilds when content or photos change. For local editing, also run the official `decap-server` from this repository's root (port 8081). The locally generated editor configuration explicitly enables a file-system backend, without external authentication, and is never committed. Production builds omit the local backend and use GitHub authentication.
 
-## Release sequence
+## Update and release
 
-1. Push changes to `website-redesign`; Netlify automatically builds and publishes that branch.
-2. Verify `yitang.info`, HTTPS, page assets, and old-route redirects.
-3. Complete OAuth setup and test editing, including photos and draft persistence.
-4. Review editorial drafts before publishing. The open pull request against `main` is optional while Netlify deploys `website-redesign` directly.
+1. Save and publish content through the GitHub editor, or push reviewed source changes to `main`.
+2. Netlify automatically builds and publishes `main`.
+3. Verify the affected live pages, assets, and any redirects after publishing.
+4. Keep `CMS_BRANCH` and Netlify’s production branch aligned with `main`; this also keeps draft-preview editors publishing to the correct branch.
 
 ## Validation completed locally
 
 Automated checks cover post create/edit/delete/unpublish, inline links and images, thumbnail modes, changing headshot/font, paper order, local asset/page references, and isolation of local/production CMS configuration. Browser testing saved, edited, and deleted a disposable post and uploaded a disposable photograph through Decap's local backend. No test content remains. Hosted GitHub login, draft saving and publication, Netlify deployment, gallery uploads, and draft-image loading have also been verified in the live editor.
 
 
-## Recommended transition to main
+## Branch transition completed
 
-The archive branch already preserves the old site. Keep it unchanged.
+The redesign was merged into `main` through pull request #1, preserving Git history. Netlify’s production branch, `CMS_BRANCH`, and the local preview now use `main`. No unpublished editorial drafts existed at the transition. The retired `website-redesign` branch can be removed after deployment verification; all of its commits remain in `main`.
 
-1. Merge the current redesign into `main` using the existing redesign pull request. Preserve any newer CMS publications; do not reset or force-push either branch.
-2. Update `CMS_BRANCH` in `netlify.toml` to `main` and the local preview branch in `site/dev.mjs` to match. The build-generated editor config must save to the same branch Netlify publishes.
-3. Set Netlify’s production branch to `main`, retaining the existing build command and publish directory.
-4. Verify the live website, editor login, saving, publication, and photos. Existing CMS drafts should target `main` before they are published; check their pull requests and previews during the transition.
-5. Use `main` for future website maintenance. Retire `website-redesign` only after all existing drafts and references are accounted for.
-
-This transition has not yet been performed; production and the editor still use `website-redesign`.
+`archive/hugo-site` preserves the old site. Keep this branch unchanged for reference and recovery.

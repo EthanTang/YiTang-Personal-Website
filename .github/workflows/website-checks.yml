@@ -2,7 +2,7 @@ name: Website checks
 on:
   pull_request:
   push:
-    branches: [main, website-redesign]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
