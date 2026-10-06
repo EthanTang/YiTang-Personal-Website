@@ -52,6 +52,6 @@ Automated checks cover post create/edit/delete/unpublish, inline links and image
 
 ## Branch transition completed
 
-The redesign was merged into `main` through pull request #1, preserving Git history. Netlify’s production branch, `CMS_BRANCH`, and the local preview now use `main`. No unpublished editorial drafts existed at the transition. The retired `website-redesign` branch can be removed after deployment verification; all of its commits remain in `main`.
+The redesign was merged into `main` through pull request #1, preserving Git history. Netlify’s production branch, `CMS_BRANCH`, and the local preview now use `main`. No unpublished editorial drafts existed at the transition. The retired `website-redesign` branch was removed after successful production and editor verification; all of its commits remain in `main`.
 
 `archive/hugo-site` preserves the old site. Keep this branch unchanged for reference and recovery.
